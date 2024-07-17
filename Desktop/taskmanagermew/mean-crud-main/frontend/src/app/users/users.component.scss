@@ -1,0 +1,26 @@
+table {
+  width: 100%;
+  tr {
+    width: 100%;
+  }
+  th,
+  td {
+    padding: 1rem;
+    border: 1px solid grey;
+  }
+
+  th:nth-child(2),
+  td:nth-child(2) {
+    width: 40%; /* Adjust this percentage to increase or decrease the width of the Description column */
+  }
+
+  th:nth-child(3),
+  td:nth-child(3) {
+    width: 35%; /* Adjust this percentage to increase or decrease the width of the Action column */
+  }
+
+  th:nth-child(1),
+  td:nth-child(1) {
+    width: 25%; /* Adjust this percentage for the Title column if needed */
+  }
+}
